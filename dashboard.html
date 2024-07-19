@@ -18,9 +18,38 @@
             <div class="col-12 col-lg-3 text-white  g-dark text-white col-md-12 " style="display: flex; align-items: center; justify-content: center;"><img src="vedgroupsm.jpg" alt="" height="100" width="100"></div>
           </div>
           <div class="row"> 
-            <div class="col-12 col-lg-2 bg-primary" style="height: auto;">sidebar</div>
-            <div class="col-12 col-lg-10" >
+            <div class="col-12 col-lg-2 " style="height: auto;" >
+                
+                <!-- Offcanvas Sidebar -->
+<div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <h3 class="offcanvas-title">Details</h3>
+    <button type="button" class="btn-close " data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body nav-list">
+    <ul>
+        <li><a href="" data-bs-toggle="collapes" data-bs-target="#demo1">home</a> </li>
+        <li><a href="" data-bs-toggle="collapes" data-bs-target="#demo2">About us</a></li>
+        <li><a href="" data-bs-toggle="collapes" data-bs-target="#demo3">Contact</a></li>
+        <li><a href="" data-bs-toggle="collapes" data-bs-target="#deno4">E-mail</a></li>
+        
+    </ul>
+        <div id="demo1" class="collapes">i am on home pAGE</div>
+        <div id="demo2" class="collapes">i am on about us </div>
+        <div id="demo3" class="collapes">i am on Contact</div>
+        <div id="demo4" class="collapes"> i am on Contact</div>
+  </div>
+</div>
+<div class="container-fluid mt-3"></div>
 
+
+<!-- Button to open the offcanvas sidebar -->
+<button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+&#9776;
+</button>
+            </div>
+            <div class="col-12 col-lg-10" >
+               
                 <div class="row"> 
                     <div class="col-6 col-lg-3 col-md-4 boxes">
                         <div class="boxcontent">
@@ -68,9 +97,9 @@
                                     </div>
                                 </div>
                             </div>
-                    <div class="col-6 col-lg-3 col-md-4  boxes">
+                    <!-- <div class="col-6 col-lg-3 col-md-4  boxes">
                         <div class="boxcontent">div 1</div>
-                    </div>
+                    </div> -->
                     <!-- <div class="col-6 col-lg-3 col-md-4 boxes">
                         <div class="boxcontent">div 1</div>
                     </div>
